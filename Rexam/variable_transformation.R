@@ -2,7 +2,11 @@
 
 #모형구축 변수변환
 
+#tree 데이터 확인
+trees
+
 #높이와 부피의 산점도를 그려서 선형관계 확인
+
 attach(trees)
 par(mfrow=c(1,2))
 plot(Height,Volume)
